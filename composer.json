@@ -16,12 +16,7 @@
     ],
 
     "require": {
-        "php": ">=7.0",
         "neroreflex/gishiki": ">=1.0.0"
-    },
-
-    "require-dev": {
-        "phpunit/phpunit": ">=6.0"
     },
 
     "autoload": {
