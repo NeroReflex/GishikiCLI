@@ -7,7 +7,7 @@
 composer.lock
 composer.phar
 vagrant.xml
-.DS_Store
+.DIRECTORY_SEPARATOR_Store
 .php_cs.cache
 *.original~
 *~
