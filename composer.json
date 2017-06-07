@@ -1,0 +1,40 @@
+{
+    "name": "neroreflex/gishikicli",
+    "description": "GishikiCLI is the command line interface for the Gishiki framework.",
+    "support": {
+        "docs": "http://neroreflex.github.io/Gishiki",
+        "source": "https://github.com/NeroReflex/GishikiCLI"
+    },
+
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Denis Benato",
+            "email": "benato.denis96@gmail.com",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php": ">=7.0",
+        "neroreflex/gishiki": ">=1.0.0"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": ">=6.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Gishiki\\": "GishikiCLI/"
+        }
+    },
+
+    "bin": [
+        "gishiki"
+    ],
+
+    "scripts": {
+        "test": "@php vendor/bin/phpunit --configuration phpunit.xml --coverage-clover build/logs/clover.xml"
+    }
+}

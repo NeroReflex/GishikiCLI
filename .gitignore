@@ -1,0 +1,19 @@
+/application/
+/build/
+/nbproject/
+/vendor/
+/.idea/
+.env
+composer.lock
+composer.phar
+vagrant.xml
+.DS_Store
+.php_cs.cache
+*.original~
+*~
+
+# test files
+testLog.log
+
+# Database
+*.sqlite
